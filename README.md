@@ -29,8 +29,8 @@
    ```
 
 2. Встановіть залежності:
-   npm install
+   `npm install`
 
 3. Запустіть додаток:
 
-   npm run dev
+   `npm run dev `
