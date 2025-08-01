@@ -4,5 +4,6 @@ import tailwindcss from "@tailwindcss/vite";
 
 // https://vite.dev/config/
 export default defineConfig({
+  base: "/todo-app/", // назва твого репо з "/" на початку і кінці
   plugins: [react(), tailwindcss()],
 });
