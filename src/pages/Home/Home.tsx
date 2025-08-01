@@ -41,8 +41,6 @@ const Home: React.FC<{ isDark: boolean }> = ({ isDark }) => {
 
   const toggleCompleted = async (todo: Todo) => {
     try {
-      Loading.standard("Loading");
-
       const updated = {
         ...todo,
         completed: !todo.completed,
@@ -51,8 +49,6 @@ const Home: React.FC<{ isDark: boolean }> = ({ isDark }) => {
       dispatch(updateTodo(updated));
     } catch {
       alert("Помилка при оновленні задачі");
-    } finally {
-      Loading.remove();
     }
   };
 
