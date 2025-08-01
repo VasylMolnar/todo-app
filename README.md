@@ -24,7 +24,7 @@
 1. Клонуйте репозиторій:
 
    ```bash
-   git clone
+   git clone https://github.com/VasylMolnar/todo-app.git
    cd todo-app
    ```
 
